@@ -42,16 +42,14 @@ $matches = [
 
 <ul>
     <?php foreach ($matches as $match){ ?>
-            <li>
-                <span>
-                    <?php echo $match['team1']; ?>
-                    -
-                    <?php echo $match['team2']; ?>
-                    //
-                    <?php echo $match['point_team_1']; ?>
-                    -
-                    <?php echo $match['point_team_2']; ?>
-                </span>
-            </li>
+        <li>
+            <?php echo $match['team1']; ?>
+            -
+            <?php echo $match['team2']; ?>
+            //
+            <?php echo $match['point_team_1']; ?>
+            -
+            <?php echo $match['point_team_2']; ?>    
+        </li>
     <?php } ?>
 </ul>
