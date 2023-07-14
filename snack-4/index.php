@@ -6,13 +6,13 @@ La funzione ritornerà un nuovo array con i valori che hanno la posizione compre
 tra "a" e "b"*/
 
 function differenceArray($array,$min,$max){
-    $differnce = $max - $min;
-    for($i = $min; i < $diffrence; i++){
-        array_push($array,$i)
+    $difference = $max - $min;
+    for($i = $min; $i < $difference; $i++){
+        array_push($array,$i);
     }
-    return $array
+    return $array;
 }
-
-$newArrey = differenceArray($newArrey,10,18)
-var_dump($newArrey)
+$newArrey = [];
+$newArrey = differenceArray($newArrey,10,18);
+var_dump($newArrey);
 ?>
